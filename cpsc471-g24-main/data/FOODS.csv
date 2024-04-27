@@ -1,0 +1,335 @@
+﻿food_id,ad_id,one_many,name
+919,190,One of Multiple Items,Sweet Cream Frozen Lemonade
+920,190,One of Multiple Items,Clasic Frozen Lemonade 
+921,190,One of Multiple Items,Strawberry Frozen Lemonade 
+922,193,Single Item,Vector High Protein Cereal 
+923,207,Single Item,Original Eggo Waffles
+924,209,Single Item,Smart Water Alkaline 
+925,210,Single Item,Coca Cola Beverage 
+926,214,Single Item,Super Mario Oreo Cookies 
+927,215,Single Item,All Dressed Crispers 
+928,216,Single Item,Energy Bar - Chocolate Chip 
+929,220,Single Item,Energy Bar - Chocolate Chip 
+930,221,Single Item,Coca Cola Beverage
+935,233,One of Multiple Items,Cracker Barrel Cheese old 
+936,233,One of Multiple Items,Cracker Barrel Slices 
+937,233,One of Multiple Items,cracker barrel tex mex
+931,237,One of Multiple Items,Dad's Cookies - Oatmeal 
+932,237,One of Multiple Items,Digestive Cookies 
+933,237,One of Multiple Items,FudgeeO Cookies - Original 
+934,237,One of Multiple Items,Fruit Cream Cookies 
+938,240,Single Item,Dentyne ice
+939,244,Single Item,Cadbury Dairy Milk Goodness Bar
+940,281,Single Item,Kellog's Fruit loops
+941,285,One of Multiple Items,Christie Collection Fudgee-O Cookies - Original
+942,285,One of Multiple Items,Christie Collection Dad's cookies
+943,285,One of Multiple Items,Christie Collection - Digestive
+944,285,One of Multiple Items,Christie Collection - Fruit Creme
+945,286,Single Item,Bacon
+946,287,One of Multiple Items,Pringles - Original
+947,287,One of Multiple Items,Pringles - BBQ
+948,287,One of Multiple Items,Pringles - salt and vinegar 
+949,287,One of Multiple Items,Pringles - sour cream
+950,288,One of Multiple Items,Ketchup
+951,288,One of Multiple Items,Hotdog
+952,289,Single Item,Baby Formula 
+953,290,One of Multiple Items,Cheez it orginal
+954,290,One of Multiple Items,Cheez it crunch
+955,290,One of Multiple Items,Cheez it four cheese
+956,291,Single Item,excel gum mint
+957,294,Single Item,"Nano Drinkable Yogurt - Strawberry, 1% M.F."
+958,296,Single Item,ritz
+959,297,Single Item,Caramilk
+965,369,One of Multiple Items,hot dog
+966,369,One of Multiple Items,Ketchup
+960,382,One of Multiple Items,Bacon
+961,382,One of Multiple Items,Thick Sliced Smoked Ham
+962,385,Single Item,Rice Krispies
+963,390,Single Item,Wieners - Original
+964,392,Single Item,Super Mario OREO Chocolate Sandwich Cookies
+970,397,One of Multiple Items,Pringles - Original
+971,397,One of Multiple Items,Pringles - BBQ
+972,397,One of Multiple Items,Pringles - salt and vinegar 
+973,397,One of Multiple Items,Pringles - sour cream
+967,398,One of Multiple Items,Oreo Blizzard DQ
+968,398,One of Multiple Items,Fries
+969,398,One of Multiple Items,Burger
+990,440,Single Item,Chips Ahoy! Original
+974,441,Meal Component,pc pizza Diavola
+975,441,Meal Component,pc pizza margarita
+976,441,Meal Component,pc pizza fungi 
+977,446,One of Multiple Items,pepsi
+978,446,One of Multiple Items,hotdog 
+979,446,One of Multiple Items,ketchup 
+980,446,One of Multiple Items,mustard
+981,448,Single Item,ChipAhoy
+982,450,One of Multiple Items,DQ Oreo fudge brownie blizzard
+983,450,One of Multiple Items,fries
+984,450,One of Multiple Items,burger
+985,452,One of Multiple Items,Tropicana Strawberry Peach
+986,452,One of Multiple Items,Tropicana Lemonade
+987,452,One of Multiple Items, Tropicana Watermelon
+988,452,One of Multiple Items,Tropicana Pineapple Mango
+989,452,One of Multiple Items,Tropicana Blackberry blue berry 
+991,461,One of Multiple Items,Pringles Original
+992,461,One of Multiple Items,Pringles Barbecue
+993,461,One of Multiple Items,Pringles Salt and Vinegar
+994,461,One of Multiple Items,Pringles Sour Cream and Onion
+1004,470,One of Multiple Items,Sweet Cream Frozen Lemonade
+1005,470,One of Multiple Items,Classic Frozen Lemonade 
+1006,470,One of Multiple Items,Strawberry Frozen Lemonade 
+1007,511,Single Item,Vector Meal Replacement
+1008,513,One of Multiple Items,Crazy Puffs Hula Hawaiian
+1009,513,One of Multiple Items,Crazy Puffs three cheese and herb
+1010,513,One of Multiple Items,Crazy Puffs pepperoni
+1011,515,Single Item,Mentos Gum
+1012,516,Single Item,Coke Zero
+1013,520,Single Item,Fairlife Dairy
+1014,541,Single Item,Super Mario Oreos 
+1033,570,One of Multiple Items,Triscuit minis
+1034,570,One of Multiple Items,Triscuit rosemary and olive oil
+1035,570,One of Multiple Items,Triscuit zesty jalapeño 
+1036,602,One of Multiple Items,Christie Collection Dad's Cookies - Classic Oatmeal
+1037,602,One of Multiple Items,Christie Collection Fudgee-O Cookies - Original
+1038,602,One of Multiple Items,cookies Digestive
+1039,602,One of Multiple Items,Biscuits - Fruit Crème
+1040,657,Single Item,"Kashi Dark Chocolate, Almond, Sea Salt"
+1041,659,Single Item,Iogo Nano
+1042,744,Single Item,Bow Valley BBQ's Winged Buffalo 
+1043,749,Single Item,Reese's Chocolate 
+1044,760,Single Item,Reese's Chocolate 
+1045,778,Single Item,Reese's
+1046,785,Single Item,Alcoholic Iced Tea Canned Beverage
+1063,791,Single Item,Pepperoni Pizza 
+1047,799,Single Item,Burger 
+1048,800,One of Multiple Items,Double Decker Chicken Burger 
+1049,800,One of Multiple Items,Double Decker Cheese burger 
+1050,800,One of Multiple Items,Oreo icecream 
+1051,801,Single Item,Sauce 
+1052,807,Single Item,Cheetos Mac & Cheese
+1053,813,Single Item,Mike's Hard Lemonade 
+1054,817,Single Item,White Claw 
+1055,818,Single Item,Yogo yogurt 
+1056,824,Single Item,Coca Cola Ultimate 
+1057,825,Single Item,Sprite 
+1058,835,Single Item,Frozen Lemonade 
+1059,837,Single Item,Crispers all dressed 
+1060,838,Single Item,Reese's chocolate 
+1061,839,Single Item,Olympic Yogurt
+1062,842,Single Item,Harvey's Burger
+1070,846,Single Item,Oreo
+1064,853,Single Item,Lays Sour Cream and Onion Chips
+1065,861,One of Multiple Items,Cracker Barrel Old Cheddar Cheese 
+1066,861,One of Multiple Items,Cracker Barrel Shredded Tex Mex Cheese 
+1067,861,One of Multiple Items,Cracker Barrel Monterey Jack Jalapeño Cheese Slices 
+1068,861,One of Multiple Items,Cracker Barrel Shredded Italiano Cheese 
+1069,866,Single Item,McDonald's Grand Big Mac 
+1071,871,Single Item,smart water alkaline 
+1072,872,Single Item,folders even roast
+1073,873,Single Item,coca cola
+1074,882,Meal Component,Egg McMuffin
+1075,882,Meal Component,Medium Roast Coffee
+1076,883,Single Item,Apple Slices 
+1077,887,Single Item,SmartWater 
+1078,890,Single Item,Smoky Honey Bacon Breakfast Sandwich 
+1079,897,Single Item,Tropicana Watermelon Juice 
+1080,906,Single Item,Jolly Rancher Gummies 
+1081,912,Single Item,Brisk Strawberry Iced Tea
+1082,913,Single Item,Thin Crust Pizza 
+1083,916,Single Item,Brisk Iced Tea 
+1084,921,Single Item,Cheetos Mac & Cheese 
+1085,922,Single Item,Brisk Iced Tea 
+1293,2492,One of Multiple Items,Black forest ham
+1294,2492,One of Multiple Items,Cold cut combo
+1295,2496,One of Multiple Items,White hot chocolate
+1296,2496,One of Multiple Items,warm Late
+1297,2496,One of Multiple Items,cold brew coffee
+1298,2502,Single Item,Red bull original
+1299,2523,One of Multiple Items,Cheez it orginal
+1300,2523,One of Multiple Items,Cheez it crunch white cheddar
+1301,2523,One of Multiple Items,Cheez it extra cheesey
+1302,2643,Single Item,New Amsterdam Pink Whitney Alcohol
+1303,2658,One of Multiple Items,Lasagna 
+1304,2658,One of Multiple Items,Potatoes
+1305,2660,One of Multiple Items,Nordica Cottage cheese fat free
+1306,2660,One of Multiple Items,Nordica Cottage cheese 2%
+1307,2660,One of Multiple Items,Nordica Cottage cheese 1%
+1308,2660,One of Multiple Items,Nordica Cottage cheese 4%
+1309,2660,One of Multiple Items,Nordica Cottage cheese lactose free
+1310,2660,One of Multiple Items,Nordica Cottage cheese on the go 
+1311,2664,One of Multiple Items,Two good yogourt plain 1 g sugar
+1312,2664,One of Multiple Items,Two good strawberry 2g sugar
+1313,2678,One of Multiple Items,Janes Buffalo Chicken wings
+1314,2678,One of Multiple Items,Janes Boneless bites BBQ
+1315,2678,One of Multiple Items,Janes Boneless bites breaded with honey garlic
+1316,2678,One of Multiple Items,Janes Breaded fillets
+1317,2683,Single Item,New Amsterdam Pink Whitney Alcohol
+1318,2684,Single Item,Ritz cheddar crackers
+1319,2694,One of Multiple Items,Ghost pepper chicken wings
+1320,2694,One of Multiple Items,Signature hot chicken wings
+1321,2694,One of Multiple Items,Honey garlic chicken wings
+1322,2694,One of Multiple Items,Honey bbq chicken wings
+1323,2694,One of Multiple Items,Garlic parmigian chicken wings
+1324,2700,One of Multiple Items,Ghost pepper chicken wings
+1325,2700,One of Multiple Items,Signature hot chicken wings
+1326,2700,One of Multiple Items,Honey garlic chicken wings
+1327,2700,One of Multiple Items,Honey bbq chicken wings
+1328,2700,One of Multiple Items,Garlic parmigian chicken wings
+1329,2707,One of Multiple Items,KFC snacker wraps original
+1330,2707,One of Multiple Items,KFC snacker wraps spicy
+1331,2721,Single Item,Mini Babybel Gouda
+1332,2746,Single Item,"IOGO Nano Drinkable Yogurt, Strawberry"
+1333,2748,Main Dish,salmon & panzanella salad
+1334,2750,Single Item,jelly belly
+1335,2755,One of Multiple Items,whey-x protein
+1336,2755,One of Multiple Items,iso xtrem protein
+1343,2768,Single Item,Arla Cream Cheese - Tre Stelle
+1337,2773,One of Multiple Items,Eggs
+1338,2773,One of Multiple Items,christie ritz crackers
+1339,2773,One of Multiple Items,christie oreos
+1340,2773,One of Multiple Items,coco-cola
+1341,2773,One of Multiple Items,pepsi
+1342,2780,Single Item,crackel barrel naturally smoked cheddar cheese
+1344,2817,One of Multiple Items,Fish tacos
+1345,2817,One of Multiple Items,Salmon meal
+1346,2817,One of Multiple Items,Shrimp bowl
+1347,2817,One of Multiple Items,Pizza
+1348,2817,One of Multiple Items,Steak meal
+1349,2823,One of Multiple Items,KFC snacker wraps original
+1350,2823,One of Multiple Items,KFC snacker wraps spicy
+1351,2851,Single Item,Reeses big cup with caramel
+1352,2859,Main Dish,macaroni and broccoli
+1353,2867,Single Item,Redbull energy drink
+1354,2915,One of Multiple Items,"Broth, Chicken concentrated"
+1355,2915,One of Multiple Items,"Broth, Beef concentrated"
+1356,2915,One of Multiple Items,"Broth, Vegetable concentrated"
+1359,2955,Single Item,Post Shreddies Original cereal
+1357,2967,Main Dish,multiple main dishes
+1358,2973,Main Dish,"subway sandwich (cold cut combo, black forest ham) "
+1371,2996,One of Multiple Items,Janes Buffalo Chicken wings
+1372,2996,One of Multiple Items,Janes Boneless bites BBQ
+1373,2996,One of Multiple Items,Janes Boneless bites breaded with honey garlic
+1374,2996,One of Multiple Items,Janes Breaded fillets
+1360,3000,One of Multiple Items,"Stir Fry Sauce, Broccoli Beef"
+1361,3000,One of Multiple Items,Rice Noodles
+1362,3000,One of Multiple Items,Medium egg noodles
+1363,3000,One of Multiple Items,Pad thai rice noodles
+1364,3015,One of Multiple Items,Kellogg's Regular Rice Krispie Square
+1365,3015,One of Multiple Items,Kellogg's Rainbow Rice Krispies Squares Bars
+1366,3015,One of Multiple Items,Kellogg's Rice Krispies Squares Bars Chocolate caramel
+1367,3017,Single Item,Kashi bar chocolate chip chia 7 grain
+1368,3032,Single Item,Cookies with chocolate
+1369,3034,Single Item,"Mini Babybel, Gouda    "
+1370,3060,Single Item,McCain Straight Cut Fries
+1375,3066,Single Item,Cake strawberry 
+1376,3087,One of Multiple Items,Nordica Cottage cheese fat free
+1377,3087,One of Multiple Items,Nordica Cottage cheese 2%
+1378,3087,One of Multiple Items,Nordica Cottage cheese 1%
+1379,3087,One of Multiple Items,Nordica Cottage cheese 4%
+1380,3087,One of Multiple Items,Nordica Cottage cheese lactose free
+1381,3087,One of Multiple Items,Nordica Cottage cheese on the go 
+1382,3108,Single Item,Eggs
+1383,3125,Main Dish,"Pizza with pepperoni, veggies, and sausage"
+1384,3196,Single Item,ginger ale zero sugar
+1385,3197,Single Item,vodka
+1386,3237,One of Multiple Items,Kick em jenny hot sauce
+1387,3237,One of Multiple Items,Piping Piparo
+1388,3237,One of Multiple Items,Baratangy
+1389,3244,Single Item,Beef roast
+1390,3255,Main Dish,"Pan Sear Selects Sole, Lemon Pepper"
+1391,3260,Single Item,"Sweet & Creamy Original, Instant Coffee Sachets"
+1392,3265,One of Multiple Items,big mac
+1393,3265,One of Multiple Items,McChicken
+1394,3265,One of Multiple Items,fillet-o-fish sandwich
+1395,3268,One of Multiple Items,Cheez-It Baked Original Snack Crackers
+1396,3268,One of Multiple Items,"Cheez-It® Crunch, Sharp White Cheddar, Baked Snack Crackers, 191g"
+1397,3268,One of Multiple Items,Cheez it four cheese
+1398,3279,Single Item,poptarts frosted strawberries
+1407,3284,One of Multiple Items,Silk Oat milk
+1408,3284,One of Multiple Items,Silk Almond Beverage Unsweetened Original
+1409,3284,One of Multiple Items,Silk 8grams of protein cashews and almonds milk
+1410,3284,One of Multiple Items,Silk Nextmilk 
+1399,3290,Main Dish,McRib Mania 
+1400,3292,One of Multiple Items,Bodyarmor STRAWBERRY BANANA
+1401,3292,One of Multiple Items,Bodyarmor Orange mango
+1402,3292,One of Multiple Items,Bodyarmor fruit punch
+1403,3292,One of Multiple Items,Bodyarmor Watermeon Strawberry
+1404,3292,One of Multiple Items,Bodyarmor tropical punch
+1405,3292,One of Multiple Items,Tropical passionfruit
+1406,3293,Single Item,coca cola original 
+1411,3313,Meal Component,French Fries - Small
+1412,3313,Meal Component,Extra Crispy Chicken - Drumstick
+1413,3313,Meal Component,Popcorn Chicken® - Small
+1414,3313,Meal Component,BBQ sauce
+1415,3323,Main Dish,Extra Crispy Bucket - Extra Crispy Chicken - Drumstick
+1416,3325,Single Item,"Sweet & Creamy Original, Instant Coffee Sachets"
+1417,3328,Single Item,Peppermint Gum Excel
+1418,3334,Meal Component,Big Mary on a Bun
+1419,3334,Meal Component,Spicy big Mary Chicken Sandwich
+1420,3334,Meal Component,Potato Taters Medium
+1421,3334,Meal Component,Potato Taters Medium
+1422,3334,Meal Component,Pepsi diet
+1423,3334,Meal Component,Pepsi regular
+1424,3343,One of Multiple Items,Guru original energy drink
+1425,3343,One of Multiple Items,Guru energy drink tropical punch
+1426,3343,One of Multiple Items,Guru energy drink Lite 
+1427,3343,One of Multiple Items,Guru energy drink fruit punch
+1428,3347,One of Multiple Items,Curly fries and poutine Donair
+1429,3347,One of Multiple Items,Curly fries and poutine Classic
+1430,3347,One of Multiple Items,Curly fries and poutine with popcorn chicken
+1431,3351,One of Multiple Items,White Claw Mango Alcohol
+1432,3351,One of Multiple Items,White Claw Black Cherry Alcohol
+1433,3351,One of Multiple Items,White Claw Natural Lime Alcohol
+1434,3356,Single Item,Doritos Tortilla Chips Bold BBQ
+1435,3357,Single Item,Doritos BBQ chips
+1436,3371,Meal Component,Wedges
+1437,3371,Meal Component,Unknown sugary drink
+1438,3371,Meal Component,Sweet Chili Chicken Loaded Wrap
+1439,3371,Meal Component,Sweet Chili Chicken Loaded Bowl
+1440,3386,Single Item,nescafe sweet and creamy
+1441,3387,Single Item,ritz crackers
+1442,3392,Main Dish,pepperoni pizza
+1443,3405,Single Item,Nutella Spread
+1444,3406,Single Item,Pace Medium Chunky Salsa
+1445,3421,Single Item,"Astro Original 0% Balkan Style Yogurt, Plain"
+1446,3434,One of Multiple Items,Patak's butter chickpeas
+1447,3434,One of Multiple Items,Patak's butter chicken sauce
+1448,3441,One of Multiple Items,Big Mac
+1449,3441,One of Multiple Items,McChicken
+1450,3441,One of Multiple Items,Fillet-O-fish
+1451,3446,One of Multiple Items,Curly fries and poutine Donair
+1452,3446,One of Multiple Items,Curly fries and poutine Classic
+1453,3446,One of Multiple Items,Curly fries and poutine with popcorn chicken
+1454,3468,Single Item,Cracker Barrel 
+1455,3478,Single Item,Doritos BBQ Chips
+1456,3485,One of Multiple Items,Pistachio Late Grande
+1457,3485,One of Multiple Items,Pistachio Cream Cold Brew
+1458,3504,Main Dish,Extra Crispy Chicken - Drumstick
+1459,3511,Main Dish,Hand Crafted Pizza - pepperoni 
+1460,3525,One of Multiple Items,Pepsi original
+1461,3525,One of Multiple Items,Pepsi Zero sugar
+1462,3525,One of Multiple Items,Pepsi zero sugar cherry
+1463,3531,One of Multiple Items,Strawberries
+1464,3531,One of Multiple Items,Broccoli 
+1465,3533,One of Multiple Items,Strawberries
+1466,3533,One of Multiple Items,Broccoli 
+1467,3540,Single Item,Intense Nacho Taki
+1468,3549,One of Multiple Items,"Black Forest Ham footlong sandwich (9-grain wheat bread, lettuce, tomatoes, onions, green peppers and cucumbers)"
+1469,3549,One of Multiple Items,"Oven Roasted Chicken footlong sandwich (9-grain wheat bread, lettuce, tomatoes, onions, green peppers and cucumbers)"
+1470,3551,One of Multiple Items,Extra Crispy Bucket - Extra Crispy Chicken - Drumstick
+1471,3551,One of Multiple Items,French Fries - Small
+1472,3551,One of Multiple Items,Popcorn Chicken® - Small
+1473,3551,One of Multiple Items,BBQ sauce
+1474,3558,Single Item,Protein shake
+1475,3563,Single Item,Pace Medium Chunky Salsa
+1476,3566,One of Multiple Items,Brownie Fudge Late Hot - medium
+1477,3566,One of Multiple Items,Brownie Fudge Late Iced
+1478,3581,Single Item,Doritos BBQ Chips
+1479,3587,One of Multiple Items,Nordica Cottage cheese fat free
+1480,3587,One of Multiple Items,Nordica Cottage cheese 2%
+1481,3587,One of Multiple Items,Nordica Cottage cheese 1%
+1482,3587,One of Multiple Items,Nordica Cottage cheese 4%
+1483,3587,One of Multiple Items,Nordica Cottage cheese lactose free
+1484,3587,One of Multiple Items,Nordica Cottage cheese on the go 
+1485,3619,One of Multiple Items,iced coffee
+1486,3619,One of Multiple Items,small hot coffee

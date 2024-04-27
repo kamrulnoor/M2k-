@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <title>View M2K System Data</title>
+    <style>
+        body {
+            background: linear-gradient(to bottom, #334d50, #cbcaa5);
+            color: white;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column; /* Align items in a column */
+            align-items: center; /* Center items horizontally */
+            justify-content: flex-start; /* Align items at the start */
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
+        }
+        main {
+            background-color: rgba(255, 255, 255, 0.85);
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            width: 100%;
+            margin-top: 20px; /* Add margin to separate from the header */
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            background-color: #e6ffef;
+            padding: 10px;
+            width: 100%; /* Make the navbar span full width */
+        }
+        .navbar-item {
+            background-color: #28a745;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: transform 0.2s, box-shadow 0.2s;
+            margin-right: 10px;
+        }
+        .navbar-item:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .video-container {
+            position: relative;
+            width: auto;
+            height: auto;
+            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .video-container iframe {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .info-box {
+            position: relative;
+            background-color: rgba(255, 255, 255, 0.9); /* Adjust transparency if needed */
+            padding: 10px;
+            box-sizing: border-box;
+            border-radius: 0 0 8px 8px; /* Rounded corners only at the bottom */
+            max-width: calc(100% - 20px); /* Set maximum width equal to video frame width */
+        }
+        .show-info {
+            position: relative;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 5px 10px;
+            cursor: pointer;
+            margin-bottom: 10px;
+            max-width: calc(100% - 20px); /* Set maximum width equal to info box width */
+        }
+        .label {
+            display: inline-block;
+            background-color: #28a745; /* Button background color */
+            color: white; /* Text color */
+            padding: 5px 10px; /* Padding around text */
+            border-radius: 20px; /* Rounded corners */
+            margin-right: 10px; /* Spacing between labels */
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <a class="navbar-item" href="upload-data.html">Upload Data</a>
+        <a class="navbar-item" href="researchers dashboard.html">View Dashboard</a>
+        <a class="navbar-item" href="download-data.html">Download Data</a>
+        <a class="navbar-item" href="researchers data.html">View Data</a>
+        <a class="navbar-item" href="landingpage.html">Logout</a>
+    </nav>
+    
+    <main>
+        <div class="container" id="videosContainer">
+            <!-- Videos will be dynamically embedded here -->
+            {% for video_id in video_ids %}
+                <div class="video-wrapper">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/{{ video_id }}" title="YouTube Video" allowfullscreen frameborder="0"></iframe>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    
+        <!-- Pagination links -->
+        <div class="pagination">
+            <span class="step-links">
+                {% if video_ids.has_previous %}
+                    <a href="?page=1">&laquo; First</a>
+                    <a href="?page={{ video_ids.previous_page_number }}">Previous</a>
+                {% endif %}
+    
+                <span class="current">
+                    Page {{ video_ids.number }} of {{ video_ids.paginator.num_pages }}.
+                </span>
+    
+                {% if video_ids.has_next %}
+                    <a href="?page={{ video_ids.next_page_number }}">Next</a>
+                    <a href="?page={{ video_ids.paginator.num_pages }}">Last &raquo;</a>
+                {% endif %}
+            </span>
+        </div>
+    </main>
+    
+    <script>
+    </script>
+    </body>    
+</html>

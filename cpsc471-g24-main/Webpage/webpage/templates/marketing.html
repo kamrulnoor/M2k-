@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <title>Foods</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #cbcaa5, #334d50);
+            color: #333;
+            padding: 20px;
+        }
+        .section {
+            margin-top: 20px;
+            background-color: #ecf0f1;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+<form method="post">{% csrf_token %}
+    <!-- Marketing Tab -->
+    <section class="section">
+        <h2>Marketing</h2>
+        <a class="btn btn-primary" href="researchers dashboard.html" role="button">Back to Dashboard</a>
+        <div>
+            <input type="text" id="marketing-feature" name="marketing-feature" placeholder="Search feature">
+        </div>
+        <button type="submit" class="submit-btn">Update</button>
+        <table>
+            <tr>
+                <th>Review ID</th>
+                <th>Ad ID</th>
+                <th>Technique ID</th>
+                <th>Feature</th>
+                <th>Character</th>
+            </tr>
+        {% for data in market %}
+
+            <tr>
+                {% for value in data %}
+                    <td>{{value}}</td>
+                {% endfor %}
+            </tr>
+            {% endfor %}
+        </table>
+    </section>
+</form>
+</body>
+</html>

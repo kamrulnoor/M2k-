@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <title>Researchers Dashboard</title>
+    <style>
+        html, body {
+            height: 100%;
+            min-height: 100vh;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #334d50, #cbcaa5);
+            color: #333;
+            display: flex;
+            flex-direction: column;
+        }
+        header {
+            background-color: #2c3e50;
+            color: #fff;
+            padding: 10px 20px;
+            position: relative;
+        }
+        .logout-btn {
+            position: absolute;
+            right: 20px;
+            top: 10px;
+            background-color: #e74c3c;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .logout-btn:hover {
+            background-color: #c0392b;
+        }
+        main {
+            padding: 20px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .card {
+            background: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            width: 80%;
+            max-width: 800px;
+        }
+        .card:hover {
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+        }
+        .dashboard {
+            width: 100%;
+            max-width: 800px;
+            margin-top: 20px;
+        }
+        .question {
+            margin-bottom: 15px;
+        }
+        .submit-btn {
+            background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+        .video-container {
+            margin: 15px 0;
+        }
+        .marketing-techniques {
+            margin-bottom: 15px;
+        }
+    </style>
+    <script>
+        function toggleInfo() {
+            var infoSection = document.querySelector('.info-section');
+            if (infoSection) {
+                infoSection.classList.toggle('active');
+            }
+        }
+    </script>
+</head>
+
+
+<body>
+    <header>
+        <a href="researchers data.html" class="btn btn-primary" role="button">Researcher Data</a>
+        <h1>Researchers Dashboard</h1>
+        <a href="landingpage.html" class="logout-btn">Logout</a>
+    </header>
+    <main>        
+        <header><h1>Add Food</h1></header>
+
+
+        <div class="card">
+            <form method="get">
+                <div class="dashboard">
+                    <div class="question">
+                        <label for="user-id">User ID:</label>
+                        <input type="text" id="user-id" name="user-id">
+                        <label for="review-id">Review ID:</label>
+                        <input type="text" id="review-id" name="review-id">
+                    </div>
+                    <div class="question">
+                        <label>Is this one of multiple items?</label>
+                        <input type="radio" id="yes" name="one-many" value="yes">
+                        <label for="yes">Yes</label>
+                        <input type="radio" id="no" name="one-many" value="no">
+                        <label for="no">No</label>
+                    </div>
+                    <div class="question">
+                        <label for="food-name">What food is being advertised?</label>
+                        <input type="text" id="food-name" name="food-name">
+                    </div>
+                    <div class="question">
+                        <label>What Evaluation Method was Used?</label>
+                        <input type="radio" id="healthcan" name="eval" value="healthcan">
+                        <label for="healthcan">Health Canada</label>
+                        <input type="radio" id="uoft" name="eval" value="uoft">
+                        <label for="uoft">U of T</label>
+                        <input type="radio" id="limited" name="eval" value="limited">
+                        <label for="limited">Limited</label>
+                    </div>
+                    <div class="question">
+                        <label>Is this food healthy?</label>
+                        <input type="radio" id="healthy" name="health" value="yes">
+                        <label for="yes">Yes</label>
+                        <input type="radio" id="unhealthy" name="health" value="no">
+                        <label for="no">No</label>
+                    </div>
+                    <button type="submit" class="submit-btn">Submit</button>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

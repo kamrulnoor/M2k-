@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <title>Foods</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #cbcaa5, #334d50);
+            color: #333;
+            padding: 20px;
+        }
+        .section {
+            margin-top: 20px;
+            background-color: #ecf0f1;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+<form method="post">{% csrf_token %}
+    <!-- Evaluated Foods Tab -->
+    <section class="section">
+        <div>
+            <h2>Evaluated Foods</h2>
+            <label for="food-filter">Filter by:</label>
+            <select id="food-filter" name="food-filter">
+                <option value="all">All</option>
+                <option value="healthy">Healthy</option>
+                <option value="unhealthy">Unhealthy</option>
+            </select>
+            <label for="food-eval">Eval method:</label>
+            <select id="food-eval" name="food-eval">
+                <option value="all">All</option>
+                <option value="healthcan">Health Canada</option>
+                <option value="uoft">U of T</option>
+                <option value="limited">Limited</option>
+            </select>
+        <a class="btn btn-primary" href="researchers dashboard.html" role="button">Back to Dashboard</a>
+            <button type="submit" class="submit-btn">Update</button>
+        </div>
+
+        <table>
+            <tr>
+                <th>Food ID</th>
+                <th>Evaluation Method</th>
+                <th>Is it Healthy?</th>
+            </tr>
+            {% for data in healthy %}
+            <tr>
+                {% for value in data %}
+                    <td>{{value}}</td>
+                {% endfor %}
+            </tr>
+            {% endfor %}
+        </table>
+    </section>
+</form>
+</body>
+</html>

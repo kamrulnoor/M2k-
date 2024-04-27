@@ -1,0 +1,6 @@
+asgiref==3.8.1
+Django==5.0.4
+duckdb==0.10.1
+sqlparse==0.4.4
+numpy==1.26.4
+
